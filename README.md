@@ -24,7 +24,7 @@ Assuming you'll try to generate Zenodo DOIs for a project (repository) called
 **`exampleorg`**:
 
 * Create a settings file by copying the `settings/example.yml` to a new one, say
-  `settings/aweseomproject.yml`
+  `settings/awesomeproject.yml`
 * Adjust the `repo` field to read `exampleorg/awesomeproject`
 * Use a web browser and navigate to
   <https://github.com/exampleorg/awesomeproject/settings/hooks>

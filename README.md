@@ -20,14 +20,14 @@ pip install --upgrade --requirement requirements.txt
 ## Usage
 
 Assuming you'll try to generate Zenodo DOIs for a project (repository) called
-**`aweseomproject`** that is located in the GitHub organization
+**`awesomeproject`** that is located in the GitHub organization
 **`exampleorg`**:
 
 * Create a settings file by copying the `settings/example.yml` to a new one, say
   `settings/aweseomproject.yml`
-* Adjust the `repo` field to read `exampleorg/aweseomproject`
+* Adjust the `repo` field to read `exampleorg/awesomeproject`
 * Use a web browser and navigate to
-  <https://github.com/exampleorg/aweseomproject/settings/hooks>
+  <https://github.com/exampleorg/awesomeproject/settings/hooks>
 * Hit the `Edit` button next to the Zenodo webhook
 * From the `Payload URL` field copy the last part (everything after
   `access_token=`)
@@ -37,7 +37,7 @@ Assuming you'll try to generate Zenodo DOIs for a project (repository) called
 Finally, run the script by specifying the path to the new settings file:
 
 ```Python
-python update-zenodo.py settings/aweseomproject.yml
+python update-zenodo.py settings/awesomeproject.yml
 ```
 
 [1]: https://zenodo.org

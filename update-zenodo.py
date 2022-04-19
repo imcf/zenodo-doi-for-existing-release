@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Simple script to force-push existing GitHub releases to Zenodo."""
+
 import argparse
 import pprint
 import sys
